@@ -25,6 +25,8 @@ const img = computed(() => {
 
 <template>
   <h5 class="card-title">{{item.trackName}}</h5>
+  <h6 class="card-subtitle">{{item.artistName}}</h6>
+  <br>
   <img :src="img" alt="Artwork"/>
 </template>
 

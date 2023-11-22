@@ -33,8 +33,7 @@ export default {
 
 <template>
   <div class="card h-100">
-    <div class="card-body"><div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 g-3">
-    </div>
+    <div class="card-body">
       <component :is="cardType" :item="item"></component>
     </div>
 
